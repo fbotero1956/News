@@ -3,9 +3,12 @@
 {% block title %}Home{% endblock title %} 
 
 {% block content %} 
+    <h1 class="welcome">Welcome to the News site with all your breaking news!!!</h1>
+    <p>This site was especially designed to bring you all the news you need and want.</p>
 {% if user.is_authenticated %}
 
-    Hi {{ user.username }}!!!
+    Hello {{ user.username }}, please let us know if there is any content that you are missing.
+    
         <p><a href="{% url 'logout' %}">Log Out</a></p>
     {% else %} 
         <p>Your are not logged in</p>
