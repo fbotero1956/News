@@ -23,9 +23,11 @@
                   <li class="nav-item">
                     <a class="nav-link active" href="{% url 'article_list' %}">Articles</a>
                   </li>
+                  {% if user.is_authenticated %}
                   <li class="nav-item">
                     <a class="nav-link active" href="{% url 'article_create' %}">New article</a>
                   </li>
+                  {% endif %}
                   <li class="nav-item">
                     <a class="nav-link active" href="{% url 'about' %}">About</a>
                   </li>

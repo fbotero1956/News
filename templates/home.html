@@ -3,16 +3,23 @@
 {% block title %}Home{% endblock title %} 
 
 {% block content %} 
-    <h1 class="welcome">Welcome to the News site with all your breaking news!!!</h1>
-    <p>This site was especially designed to bring you all the news you need and want.</p>
-{% if user.is_authenticated %}
+    <br>
+    <div class="jumbotron welcome">
+        <h1 class="welcome display-4">Newspaper App</h1>
+        <p class="lead">This site was especially designed to bring you all the news you need and want.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">View all Articles</a>
+        </p>
 
-    Hello {{ user.username }}, please let us know if there is any content that you are missing.
-    
-        <p><a href="{% url 'logout' %}">Log Out</a></p>
-    {% else %} 
-        <p>Your are not logged in</p>
-        <a href="{% url 'login' %}">Log In</a>
-        <a href="{% url 'signup' %}">Sign Up</a>
-        {% endif %} 
+    {% if user.is_authenticated %}
+
+        Hello {{ user.username }}, you are currently logged in!
+        
+            <p><a href="{% url 'logout' %}">Log Out</a></p>
+        {% else %} 
+            <p>Your are not logged in!</p>
+            <a href="{% url 'login' %}">Log In</a>
+            <a href="{% url 'signup' %}">Sign Up</a>
+            {% endif %} 
+    </div>
 {% endblock content %} 
