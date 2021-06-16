@@ -1,0 +1,25 @@
+ 1681  sh mypip.sh gunicorn
+ 1682  chmod u+x mypip.sh
+ 1683  mypip.sh gunicorn
+ 1684  mypip gunicorn
+ 1685  dir
+ 1686  chmod U+X mypip.sh
+ 1687  chmod --help
+ 1688  cd
+ 1689  mkdir bin
+ 1690  cp Code/SDGKU/news/mypip.sh ./bin/mypip
+ 1691  cd bin
+ 1692  pwd
+ 1693  export PATH=$(pwd):$PATH
+ 1694  echo $PATH
+ 1695  chmod u+x mypip
+ 1696  cd ..
+ 1697  mypip gunicorn
+ 1698  cd Code/SDGKU/news
+ 1699  echo $0
+ 1700  cd ~
+ 1701  dir -a
+ 1702  ]history 25
+ 1703  cd Code/SDGKU/news
+ 1704  history 25
+ 1705  history 25 > script
