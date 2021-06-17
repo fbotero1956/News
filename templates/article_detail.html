@@ -9,9 +9,34 @@
         <p>{{ article.body }}</p>
 
         <div class="card-footer text-center text-muted">
+            {% if user.is_authenticated %}
             <a href="{% url 'article_edit' article.pk %}">Edit</a> | 
             <a href="{% url 'article_delete' article.pk %}">Delete</a> |
-            <a href="{% url 'article_list' %}"">Back to list</a>
+            {% endif %}
+            <a href="{% url 'article_add_comment' article.pk %}"">Add a comment</a> |
+            <a href="{% url 'article_list' %}"">Back to list</a> 
+            
+        </div>
+        <br>
+        <div class="container">
+ 
+        <table class="table table-primary table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Author</th>
+                <th scope="col">Comment</th>
+              </tr>
+            </thead>
+            <tbody>
+                {% for comment in article.comments.all %}
+                    <tr>
+                        <td>{{ comment.author }}</td>
+                        <td>{{ comment }}</td>
+                    </tr>
+                {% endfor %}
+            
+            </tbody>
+          </table>
         </div>
     </div>
  

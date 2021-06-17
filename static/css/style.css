@@ -3,7 +3,22 @@
     font-size: large;
 }
 .welcome{
-    color:green;
-    margin-left: 80px;
+    color:white;
+    margin-left: 200px;
     
+}
+.jumbotron{
+    
+    background-image: url('./stretch_duel.jpg');
+    background-size: cover;
+    height:100vh;
+    color: white;
+    margin:0;
+    
+}
+a{
+    color:white;
+}
+.blue{
+    color:blue;
 }

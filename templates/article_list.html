@@ -16,20 +16,10 @@
         </div>
         <div class="card-footer text-center text-muted">
             {% if user.is_authenticated %}
-            <a href="{% url 'article_edit' article.pk %}">Edit</a> | 
-            <a href="{% url 'article_delete' article.pk %}">Delete</a> |
+            <a class="blue" href="{% url 'article_edit' article.pk %}">Edit</a> | 
+            <a class="blue" href="{% url 'article_delete' article.pk %}">Delete</a> |
             {% endif %} 
-            <a href="{% url 'article_detail' article.pk %}">Detail</a>
-        </div>
-        <div class="card-footer">
-        {% for comment in article.comments.all %}
-            <p>
-                <span class="font-weight-bold">
-                    {{ comment.author }} &middot;
-                </span>
-                    {{ comment }}
-            </p>
-        {% endfor %} 
+            <a class="blue" href="{% url 'article_detail' article.pk %}">Detail and Comments</a>
         </div>
         <br>
     </div>

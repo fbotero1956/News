@@ -1,969 +1,3 @@
-  639  cd product_catalog
-  640  python3 create_db.py
-  641  cd app
-  642  python3 create_db.py
-  643  cd ..
-  644  python3 create_db.py
-  645  pip3 freeze
-  646  pip3 install Flask-SQLAlchemy
-  647  source venv/bin/activate
-  648  pip3 install Flask-SQLAlchemy
-  649  python3 create_db.py
-  650  python3 mk_products.py
-  651  pip3 install Flask-WTF
-  652  pip3 freeze
-  653  pip3 install Flask-Bootstrap4
-  654  clear
-  655  pip3 freeze > requirements.txt
-  656  python3 create_db.py
-  657  python3 mk_products.py
-  658  git status
-  659  dir
-  660  code .
-  661  git init
-  662  git add -A
-  663  git status
-  664  git commit -m 'first commit for product catalog'
-  665  git remote -v
-  666  git remote -V
-  667  git remote add origin 111_3
-  668  git remote
-  669  git remote -v
-  670  git branch
-  671  git push -v origin 111_3
-  672  git branch -main
-  673  git branch -M main
-  674  git branch
-  675  git push -v origin 111_3
-  676  git branch -M 111_3
-  677  git branch
-  678  git push -v origin 111_3
-  679  git remote
-  680  git remote --verbose
-  681  git remote
-  682  git remote add origin git@github.com:fbotero1956/python.git
-  683  git remote -v
-  684  git remote add main git@github.com:fbotero1956/python.git
-  685  git remote -v
-  686  git branch -M main 111_3
-  687  git branch
-  688  git push main -v
-  689  cd ..
-  690  dir
-  691  cd flask_111
-  692  dir
-  693  cd ..
-  694  cd product_catalog
-  695  dir
-  696  python3 create_db.py
-  697  python3 mk_products.py
-  698  python3 mk_reviews.py
-  699  git branch -M main 111_Comp
-  700  git branch 111_Comp
-  701  git branch
-  702  git status
-  703  git add -A
-  704  git commit -m "added review capability"
-  705  git remote -V
-  706  git remote
-  707  git branch -M origin 111_Comp
-  708  git branch -M main
-  709  git branch
-  710  git branch -M 111_Comp
-  711  git branch
-  712  git push -V main 111_Comp
-  713  git push -v main 111_Comp
-  714  cd ../fsdi_112
-  715  deactivate
-  716  source venv/bin/activate
-  717  django-admin startproject config .
-  718  dir
-  719  cd config
-  720  dir
-  721  cd ..
-  722  tree config
-  723  dir
-  724  code .
-  725  python3 manage.py runserver
-  726  deactivate
-  727  cd ~
-  728  dir
-  729  cd SDGKU
-  730  cd user_crud
-  731  python3 http_test.py
-  732  dir
-  733  cd venv
-  734  python3 http_test.py
-  735  deactivate
-  736  cd ..
-  737  ls
-  738  source venv/bin/activate
-  739  python3 heetp_test.py
-  740  python3 venv/http_test.py
-  741  cd venv
-  742  python3 heetp_test.py
-  743  ls
-  744  python3 http_test.py
-  745  cd ..
-  746  python3 http_test.py
-  747  python3 venv/http_test.py
-  748  flask run
-  749  clear
-  750  flask run
-  751  clear
-  752  flask run
-  753  clear
-  754  flask run
-  755  clear
-  756  sqlite3 user_db
-  757  clear
-  758  flask run
-  759  clear
-  760  flask run
-  761  clear
-  762  flask run
-  763  sqlite3
-  764  sqlite3 user_db
-  765  flask run
-  766  clear
-  767  flask run
-  768  clear
-  769  flask run
-  770  echo$FLASK_RUN
-  771  echo $FLASK_RUN
-  772  $echo FLASK_RUN
-  773  echo $FLASK_APP
-  774  $echo FLASK_APP
-  775  echo FLASK_APP
-  776  FLASK_APP
-  777  flask run
-  778  cad flask_111
-  779  deactivate
-  780  cd flask_111
-  781  ls
-  782  cd ../flask_111
-  783  ls
-  784  export FLASK_APP="app.py"
-  785  flask run
-  786  export DEBUG_MODE=1
-  787  venv/bin/activate
-  788  source venv/bin/activate
-  789  flask run
-  790  export FLASK_DEBUG=1
-  791  flask run
-  792  explorer.exe
-  793  flask run
-  794  pip3 install Flask-SQLAlchemy
-  795  flask run
-  796  clear
-  797  explorer.exe
-  798  flask run
-  799  ls
-  800  python3 create_db.py
-  801  python3 mk_user.py
-  802  clear
-  803  python3 mk_user.py
-  804  flask run
-  805  python3 mk_user.py
-  806  flask run
-  807  git add -A
-  808  git status
-  809  git commit -m "added sqlalchemy"
-  810  git branch
-  811  git push -u origin templates
-  812  python3 create_db.py
-  813  deactivate
-  814  cd ..
-  815  mkdir product_catalog
-  816  ls
-  817  cd product_catalog
-  818  python3 -m venv venv
-  819  source venv/bin/activate
-  820  pip3 install flask
-  821  mkdir app
-  822  cd app
-  823  mkdir database
-  824  cd ..
-  825  touch app/__init__.py
-  826  touch app/database/__init__.py
-  827  ls
-  828  mkdir -p app/templates
-  829  mkdir -p app/static
-  830  mkdir -p app/forms
-  831  code .
-  832  expor FLASK_APP=app/__init__.py
-  833  export FLASK_APP=app/__init__.py
-  834  export FLASK_DEBUG=1
-  835  flask run
-  836  pip3 install Flask-SQSQLAlchemy
-  837  pip3 install Flask-SQLAlchemy
-  838  cd ..
-  839  ls
-  840  cd user_crud
-  841  ls
-  842  cd ..
-  843  cd product_catalog
-  844  pip install -r requirements.txt
-  845  pip3 install -r requirements.txt
-  846  dir
-  847  pip3 freeze > requirements.txt
-  848  pip3 install -r requirements.txt
-  849  deactivate
-  850  cd ..
-  851  cd user_crud
-  852  source venv/bin/activate
-  853  flask run
-  854  git status
-  855  git branch
-  856  git remote add main FSDI_111_2
-  857  git branch
-  858  git remote
-  859  git branch - main
-  860  git branch -m main
-  861  git remote add origin FSDI_111_2
-  862  git branch -m FSDI_111_2
-  863  git branch
-  864  git remote
-  865  git remote -help
-  866  git remote -v
-  867  git branch
-  868  git add -A
-  869  git commit -m "added read"
-  870  git push-V main FSDI_111_2
-  871  git push -V main FSDI_111_2
-  872  git remote -v
-  873  git branch
-  874  git push -V main
-  875  git push -V
-  876  clear
-  877  git push -V
-  878  git push
-  879  git push main
-  880  git push main FSDI_111_2
-  881  git push main HEAD
-  882  git branch
-  883  git branch -M main
-  884  git branch
-  885  git remote -v
-  886  git branch -m main
-  887  git remote -v
-  888  git remote add main
-  889  git remote -m main
-  890  git remote --master main
-  891  git remopte rename FSDI_111_2 111_2
-  892  git remote rename FSDI_111_2 111_2
-  893  git remote set-branches --add main 111-2
-  894  git remote -V
-  895  git remote -v
-  896  git push -v origin 111_2
-  897  git remote add -t 111_2
-  898  git remote add -t 111_2 main
-  899  git remote add -t 111_2 origin
-  900  git -help
-  901  git branch -m main
-  902  git branch -m main 111_2
-  903  git push
-  904  git push main HEAD
-  905  git push origin 111_2
-  906  git pull
-  907  deactivate
-  908  cd ..
-  909  dir
-  910  cd product_catalog
-  911  source venv/bin/activate
-  912  dir
-  913  flask run
-  914  clear
-  915  expolrer.exe
-  916  explorer.exe
-  917  cd ~
-  918  explorer.exe
-  919  /mnt/c
-  920  explorer.exe
-  921  cd c:
-  922  cd c
-  923  dir
-  924  cd /mnt/c
-  925  dir
-  926  cd webucator
-  927  ls
-  928  dir
-  929  copy Felipe\ Botero\ selfie.jpg ~FB.jpg
-  930  fcopy Felipe\ Botero\ selfie.jpg ~FB.jpg
-  931  sudo apt install fai-client
-  932  fcopy Felipe\ Botero\ selfie.jpg ~FB.jpg
-  933  fcopy Felipe\ Botero\ selfie.jpg ~Code/FB.jpg
-  934  copy ?
-  935  fcopy ?
-  936  fcopy -help
-  937  dir
-  938  fcopy gotstormy.jpg ~Code
-  939  cd ~Code
-  940  cd ~
-  941  dir
-  942  cd Code
-  943  cd c
-  944  cd /mnt/c/webucator
-  945  copy gotstormy.jpg ~/Code
-  946  fcopy gotstormy.jpg ~/Code
-  947  fcopy gotstormy.jpg ~/Code/gotstormy.jpg
-  948  fcopy gotstormy.jpg ~/Code/gotstormy
-  949  fcopy -help
-  950  fcopy gotstormy.jpg -t ~/Code
-  951  cp gotstormy.jpg ~/Code
-  952  cd ~/Code
-  953  dir
-  954  rm gotstormy
-  955  dir
-  956  cp /mnt/c/webucator/FelipeBoteroSelfie.jpg SDGKU
-  957  cd sdgku
-  958  cd SDGKU
-  959  dir
-  960  cd product_catalog
-  961  dir
-  962  cd app
-  963  dir
-  964  cd static
-  965  dir
-  966  cp ~/Code/SDGKU/FelipeBoteroSelfie.jpg 
-  967  cp ~/Code/SDGKU/FelipeBoteroSelfie.jpg /img
-  968  cp ~/Code/SDGKU/FelipeBoteroSelfie.jpg img
-  969  dir
-  970  cd img
-  971  dir
-  972  cd ..
-  973  mv ~/Code/gotstormy.jpg img
-  974  cd img
-  975  dir
-  976  cd ../../..
-  977  cd ..
-  978  code .
-  979  cd product_catalog
-  980  flask run
-  981  export FLASK=app/__init__.py
-  982  export FLASK_DEBUG=1
-  983  flask run
-  984  cd..
-  985  deactivate
-  986  cd ..
-  987  mkdir fsdi_112
-  988  cd fdsi_112
-  989  dir
-  990  cd fsdi_112
-  991  python3 -m venv venv
-  992  source venv/bin/activate
-  993  pip3 install django
-  994  python3 manage.py migrate
-  995  python3 manage.py startapp pages
-  996  dir config/
-  997  dir
-  998  code .
-  999  python3 manage.py test
- 1000  python3 manage.py tests
- 1001  python3 manage.py test
- 1002  git init
- 1003  touch requirements.txt
- 1004  pip3 freeze
- 1005  pip3 freeze > requirements.txt
- 1006  git branch
- 1007  git status
- 1008  git add -A
- 1009  git remote
- 1010  git remote add main
- 1011  git commit -m 'first commit for 112'
- 1012  git remote -v
- 1013  git remote add main git@github.com:fbotero1956/python.git
- 1014  git remote
- 1015  git push -v 112_1
- 1016  git branch 112_1
- 1017  git branch
- 1018  git push -v main 112_1
- 1019  git remote add origin git@github.com:fbotero1956/FSDI_112.git
- 1020  git branch -M main
- 1021  git push -u origin main
- 1022  https://cli-assets.heroku.com/install-ubuntu.sh | sh
- 1023  curl https://cli-assets.heroku.com/install-ubuntu.sh
- 1024  hroku version
- 1025  heroku version
- 1026  LOCATION=$(which heroku)
- 1027  echo "heroku installed to $LOCATION"
- 1028  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
- 1029  heroku version
- 1030  deactivate
- 1031  heroku version
- 1032  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
- 1033  source venv/bin/activate
- 1034  heroku version
- 1035  heroku login
- 1036  pip3 install gunicorn
- 1037  touch Procfile
- 1038  code .
- 1039  git status
- 1040  pip3 freeze > requirements.txt
- 1041  git add -A
- 1042  git commit -m 'added heroku'
- 1043  git branch
- 1044  git push
- 1045  git log
- 1046  git remote -v
- 1047  heroku create
- 1048  git remote
- 1049  git remote -v
- 1050  git branch
- 1051  git config --list
- 1052  heroku config:set DISABLE_COLLECTSTATIC=1
- 1053  git push heroku main
- 1054  heroku logs --tall
- 1055  heroku logs --tail
- 1056  heroku open
- 1057  heroku logs --tail
- 1058  git add -A
- 1059  git commit -m 'fixed tupo'
- 1060  git push heroku main
- 1061  heroku open
- 1062  heroku ps:scale web=1
- 1063  deactivate
- 1064  cd ..
- 1065  mkdir message_board
- 1066  cd message_board
- 1067  python3 -m venv venv
- 1068  source venv/bin/activate
- 1069  pip3 install django
- 1070  django-admin startproject config .
- 1071  dir
- 1072  python3 manage.py startapp posts
- 1073  code .
- 1074  python3 manage.py migrate
- 1075  history
- 1076  history > commands.txt
- 1077  python3 manage.py runserver
- 1078  git status
- 1079  touch .gitignore
- 1080  code .
- 1081  touch requirements.txt
- 1082  pip3 > reqiurements.txt
- 1083  git init
- 1084  git add -A
- 1085  git status
- 1086  git commit -m 'first commit'
- 1087  git remote -v
- 1088  git branch
- 1089  git remote add main
- 1090  git remote -v origin main
- 1091  git remote add origin git@github.com:fbotero1956/MB.git
- 1092  git branch -M main
- 1093  git remote
- 1094  git push
- 1095  git push --set-upstream origin main
- 1096  history > commands.txt
- 1097  cd ..
- 1098  cd product_catalog
- 1099  code .
- 1100  deactivate
- 1101  source venv/bin/activate
- 1102  flask run
- 1103  cd tamplates
- 1104  dir
- 1105  cd app
- 1106  cd templates
- 1107  cp routes.py save_routes.py
- 1108  dir
- 1109  cd ..
- 1110  dir
- 1111  cp routes.py save_routes.py
- 1112  python3 create_db.py
- 1113  cd ..
- 1114  python3 create_db.py
- 1115  python3 mk_products.py
- 1116  python3 mk_reviews.py
- 1117  python3 create_db.py
- 1118  python3 mk_products.py
- 1119  python3 mk_reviews.py
- 1120  flask run
- 1121  git status
- 1122  git add -A
- 1123  git commit -m 'add the product level review capability'
- 1124  git remote -v
- 1125  pit push
- 1126  git push
- 1127  pit push -m 111_Comp
- 1128  git push -m 111_Comp
- 1129  git push 111_Comp
- 1130  git push -v main 111_Comp
- 1131  deactivate
- 1132  cd ..
- 1133  dir
- 1134  cd fsdi_112
- 1135  dir
- 1136  code .
- 1137  dir
- 1138  cd ..
- 1139  cd message_board
- 1140  dir
- 1141  code .
- 1142  pip3 freeze
- 1143  pip3 freeze > requirements.txt
- 1144  dir
- 1145  code .
- 1146  source venv/bin/activate
- 1147  python3 manage.py makemigrations
- 1148  python3 manage.py migrate
- 1149  python3 manage.py createsuperuser
- 1150  python3 manage.py runserver
- 1151  git status
- 1152  git add -A
- 1153  git commit -m 'add a basic model to save posts'
- 1154  git remote
- 1155  git remote -v
- 1156  git push
- 1157  git log
- 1158  clear 
- 1159  python3 manage.py test
- 1160  git status
- 1161  git add -A
- 1162  git commit -m 'added tests'
- 1163  git push
- 1164  pip3 install gunicorn
- 1165  pip3 freeze > requirements.txt
- 1166  touch Procfile
- 1167  code .
- 1168  clear
- 1169  heroku create
- 1170  git config --list
- 1171  git add -A
- 1172  git commit -m 'added heroku updates'
- 1173  git push
- 1174  git push heroku main
- 1175  heroku config:set DISABLE_COLLECTSTATIC=1
- 1176  git push heroku main
- 1177  heroku ps:scale web=1
- 1178  heroku open
- 1179  deactivate
- 1180  cd ..
- 1181  mkdir blog && cd blog
- 1182  python3 -m venv venv
- 1183  source venv/bin/activate
- 1184  pip3 install django
- 1185  django-admin startproject config .
- 1186  python3 manage.py startapp blog
- 1187  python3 manage.py migrate
- 1188  code .
- 1189  python3 manage.py run
- 1190  python3 manage.py runserver
- 1191  python3 manage.py makemigrations blog
- 1192  pytho3 manage.py migrate blog
- 1193  python3 manage.py migrate blog
- 1194  python3 manage.py createsuperuser
- 1195  python3 manage.py runserver
- 1196  clear
- 1197  touch blog/urls.py
- 1198  code .
- 1199  python3 manage.py runserver
- 1200  pip3 freeze > requirements.txt
- 1201  git init
- 1202  git status
- 1203  git add -A
- 1204  git commit -m 'first commit for blog application'
- 1205  git remote add origin git@github.com:fbotero1956/blog.git
- 1206  git branch -M main
- 1207  git push -u origin main
- 1208  history 100
- 1209  history > command0601.txt
- 1210  history 100 > command0601.txt
- 1211  history 100
- 1212  deactivate
- 1213  cd ..
- 1214  dir
- 1215  cd message_board
- 1216  dir
- 1217  cp ../FelipeBoteroSelfie.jpg
- 1218  cp ../FelipeBoteroSelfie.jpg FB.jpg
- 1219  dir
- 1220  code .
- 1221  cd ..
- 1222  dir
- 1223  cd fsdi_112
- 1224  dir
- 1225  cp ../FelipeBoteroSelfie.jpg FB.jpg
- 1226  dir
- 1227  code .
- 1228  python3 manage.py runserver
- 1229  dir
- 1230  python3 manage.py runserver
- 1231  pip3 freeze
- 1232  dir
- 1233  source venv/bin/activate
- 1234  python3 manage.py runserver
- 1235  git status
- 1236  git add -A
- 1237  git commit -m 'added image on about page'
- 1238  git remote -v
- 1239  pit push origin main
- 1240  git branch
- 1241  git log
- 1242  git push -v origin main
- 1243  cd ..
- 1244  dir
- 1245  cd message_board
- 1246  dir
- 1247  code .
- 1248  deactivate
- 1249  source venv/bin/activate
- 1250  dir
- 1251  cd posts
- 1252  dir
- 1253  cd ..
- 1254  dir
- 1255  cd blog
- 1256  dir
- 1257  code .
- 1258  deactivate
- 1259  source venv/bin/activate
- 1260  python3 manage.py runserver
- 1261  python3 manage.py tests.py
- 1262  dir
- 1263  python3 manage.py tests.py
- 1264  python3 manage.py tests.
- 1265  python3 manage.py tests
- 1266  python3 manage.py blog/tests.py
- 1267  python3 manage.py blog/tests
- 1268  cd blog
- 1269  python3 manage.py tests
- 1270  python3 manage.py test
- 1271  cd ..
- 1272  python3 manage.py test
- 1273  clear
- 1274  python3 manage.py test
- 1275  git status
- 1276  git add -A
- 1277  git commit -m 'added tests'
- 1278  git push
- 1279  code .
- 1280  python3 manage.py runserver
- 1281  python3 manage.py test
- 1282  git add -A
- 1283  git commit -m 'added update and delete'
- 1284  git push
- 1285  python3 manage.py runserver
- 1286  git add -A
- 1287  git commit -m 'added login functionality'
- 1288  git push
- 1289  python3 manage.py runserver
- 1290  code .
- 1291  python3 manage.py runserver
- 1292  python3 manage.py startappa ccounts
- 1293  python3 manage.py startapp ccounts
- 1294  python3 manage.py startapp accounts
- 1295  dir
- 1296  rm ccounts
- 1297  rmdir ccounts
- 1298  del ccounts
- 1299  python3 manage.py runserver
- 1300  git status
- 1301  git add -A
- 1302  git commit -m 'added create user'
- 1303  git push
- 1304  git remote
- 1305  git remote -v
- 1306  git branch
- 1307  python3 manage.py collectstatic
- 1308  pip3 install whitenoise
- 1309  pip3 freeze > requirements.txt
- 1310  python3 manage.py collectstatic
- 1311  pip3 freeze
- 1312  deactivate
- 1313  source venv/bin/activate
- 1314  pip3 freeze
- 1315  python3 manage.py collectstatic
- 1316  pip3 install gunicorn
- 1317  pip3 freeze > requirements.txt
- 1318  touch Procfile
- 1319  heroku create
- 1320  clear
- 1321  git config --list
- 1322  git status
- 1323  git add -A
- 1324  git commit -m 'added whitenoise'
- 1325  git push
- 1326  git push heroku main
- 1327  heroku ps:scale web=1
- 1328  deactivate
- 1329  cd ..
- 1330  cd blog
- 1331  history 200  > commnads.txt
- 1332  cd ..
- 1333  mkdir news
- 1334  cd news
- 1335  python3 -m venv venv
- 1336  source venv/bin/activate
- 1337  pip3 install django
- 1338  django-admin startproject config .
- 1339  python3 manage.py startapp accounts
- 1340  code .
- 1341  touch accounts/forms.py
- 1342  python3 manage.py makemigrations accounts
- 1343  python3 manage.pymigrate
- 1344  python3 manage.py migrate
- 1345  python3 manage.py createsuperuser
- 1346  python3 manage.py runserver
- 1347  mkdir templates
- 1348  cd templates
- 1349  mkdir registration
- 1350  cd ..
- 1351  touch accounts/urls.py
- 1352  python3 manage.py runserver
- 1353  git init
- 1354  git status
- 1355  touch .gitignore
- 1356  git add -A
- 1357  git commit -m 'first commit'
- 1358  git remote add origin git@github.com:fbotero1956/news.git
- 1359  git branch -M main
- 1360  git push -u origin main
- 1361  cd ..
- 1362  dir
- 1363  cd fsdi_112
- 1364  dir
- 1365  deactivate
- 1366  source venv/bin/activate
- 1367  git log
- 1368  python3 manage.py runserver
- 1369  code .
- 1370  cd ..
- 1371  dir
- 1372  code .
- 1373  python3 manage.py runserver
- 1374  cd fsdi_112
- 1375  python3 manage.py runserver
- 1376  git status
- 1377  git remote
- 1378  git add -A
- 1379  git commit -m "added navbar"
- 1380  git push
- 1381  cd ..
- 1382  deactivate
- 1383  dir
- 1384  cd message_board
- 1385  dir
- 1386  pip3 freeze
- 1387  git remote
- 1388  dir
- 1389  source venv/bin/activate
- 1390  python3 manage.py runserver
- 1391  code .
- 1392  cd ..
- 1393  code .
- 1394  cd message_board
- 1395  git status
- 1396  git add -A
- 1397  git status
- 1398  git commit -m "added heroku url in readme"
- 1399  git push
- 1400  git push heroku main
- 1401  deactivate
- 1402  cd ../blog
- 1403  source venv/bin/activate
- 1404  python3 manage.py runserver
- 1405  cd ..
- 1406  deactivate
- 1407  cd blog
- 1408  code .
- 1409  cd ../news
- 1410  code .
- 1411  source venv/bin/activate
- 1412  python3 manage.py runserver
- 1413  python manage.py startapp pages
- 1414  python3 manage.py test
- 1415  python3 manage.py runserver
- 1416  pip3 install django-crispy-forms
- 1417  pip3 freeze > requirements.txt
- 1418  python3 manage.py runserver
- 1419  git status
- 1420  git add -A
- 1421  git commit -m "added password change"
- 1422  git push
- 1423  python3 manage.py runserver
- 1424  clear
- 1425  touch templates/registration/password_reset_form.html
- 1426  touch templates/registration/password_reset_done.html
- 1427  touch templates/registration/password_reset_confirm.html
- 1428  touch templates/registration/password_reset_complete.html
- 1429  python3 manage.py runserver
- 1430  dir
- 1431  dir 
- 1432  cd ~
- 1433  dir
- 1434  cd Code
- 1435  dir
- 1436  cd SDGKU
- 1437  dir
- 1438  cd blog
- 1439  dir
- 1440  source venv/bin/active
- 1441  dir
- 1442  source venv/bin/active
- 1443  cd venv
- 1444  dir
- 1445  cd bin
- 1446  dir
- 1447  cd ../..
- 1448  source venv/bin/activate
- 1449  git status
- 1450  cat readme.md
- 1451  cat README.md
- 1452  git remote
- 1453  code .
- 1454  python3 manage.py runserver
- 1455  dir
- 1456  cd ..
- 1457  dir
- 1458  cp FelipeBoteroSelfie.jpg blog/FB.jpg
- 1459  cd blog
- 1460  dir
- 1461  python3 manage.py runserver
- 1462  cd ..
- 1463  code .
- 1464  cd blog
- 1465  python3 manage.py runserver
- 1466  git status
- 1467  git add -A
- 1468  python3 manage.py runserver
- 1469  pip3 freeze > requirements.txt
- 1470  dir
- 1471  history commands.txt
- 1472  git add -A
- 1473  git commit -m "added css, js and image"
- 1474  git push
- 1475  git push heroku main
- 1476  deactivate
- 1477  cd ../news
- 1478  source venv/bin/activate
- 1479  pip3 freeze > requirements.txt
- 1480  dir
- 1481  python3 manage.py runserver
- 1482  git remote
- 1483  $ heroku git:remote -a evening-river-07395
- 1484  git remote add evening-river-07395
- 1485  git remote add -m evening-river-07395
- 1486  git remote -a  evening-river-07395
- 1487  git heroku
- 1488  heroku
- 1489  heroku git:remote -a evening-river-07395
- 1490  git remote
- 1491  git status
- 1492  git add -A
- 1493  git commit -m "added readme file and heroku link"
- 1494  git push
- 1495  git push heroku main
- 1496  heroku config:set DISABLE_COLLECTSTATIC=1
- 1497  git push heroku main
- 1498  heroku logs --tall
- 1499  heroku logs --tail
- 1500  git push heroku main
- 1501  git add -a
- 1502  git add -A
- 1503  git commit -m "retry"
- 1504  git push
- 1505  git push heroku main
- 1506  heroku logs --tail
- 1507  python3 manage.py runserver
- 1508  heroku logs --tail
- 1509  heroku ps:scale web=1
- 1510  git add .
- 1511  git commit -m "added procfile"
- 1512  git push
- 1513  git push heroku main
- 1514  heroku ps:scale web=1
- 1515  git logs --tail
- 1516  heroku logs --tail
- 1517  pip3 install gunicorn
- 1518  git push heroku main
- 1519  heroku restart
- 1520  heroku logs --tail
- 1521  cat requirements.txt
- 1522  pip freeze
- 1523  pip freeze > requirements.txt
- 1524  git add -A
- 1525  git commit -m "added guincorn"
- 1526  git push heroku main
- 1527  git add -A
- 1528  git commit -m "added allowed hosts"
- 1529  git push
- 1530  git push heroku main
- 1531  code .
- 1532  source venv/bin/activate
- 1533  deactivate
- 1534  source venv/bin/activate
- 1535  python3 manage.py runserver
- 1536  python3 manage.py startapp articles
- 1537  python3 manage.py makemigrations
- 1538  python3 manage.py migrate
- 1539  python3 manage.py runserver
- 1540  python3 manage.py makemigrations
- 1541  python3 manage.py migrate
- 1542  python3 manage.py runserver
- 1543  python3 manage.py makemigrations
- 1544  python3 manage.py migrate
- 1545  python3 manage.py runserver
- 1546  cd ..
- 1547  code .
- 1548  cd news
- 1549  python3 manage.py runserver
- 1550  git status
- 1551  git add -A
- 1552  git commit -m "added css, js and images"
- 1553  git push
- 1554  git push heroku main
- 1555  dir
- 1556  cd static
- 1557  dir
- 1558  cp static articles/static
- 1559  code .
- 1560  cd ..
- 1561  code .
- 1562  git add -A
- 1563  git commit -m "fixed static"
- 1564  git push
- 1565  git push heroku main
- 1566  python3 manage.py runserver
- 1567  python3 manage.py collectstatic
- 1568  cd ..
- 1569  code .
- 1570  cd news
- 1571  pip3 freeze
- 1572  pip3 install whitenoise
- 1573  pip3 freeze > requirements.txt
- 1574  pip3 freeze
- 1575  git add -A
- 1576  git commit -m "whitenoise added"
- 1577  git push
- 1578  git push heroku main
- 1579  code .
- 1580  dir
- 1581  nano .bash_profile
- 1582  cd code
- 1583  dir
- 1584  cd ~
- 1585  cd code
- 1586  dir
- 1587  cd Code
- 1588  dir
- 1589  cd SDGKU
- 1590  dir
- 1591  CD news
- 1592  cd news
- 1593  source venv/bin/activate
- 1594  git status
- 1595  git add -A
- 1596  git commit -m "changed key"
- 1597  git push heroku main
- 1598  python3 manage.py runserver
- 1599  python3 manage.py makemigrations
- 1600  python3 manage.py migrate
- 1601  python3 manage.py makemigrations
- 1602  python3 manage.py migrate
- 1603  clear
- 1604  python3 manage.py makemigrations
  1605  python3 manage.py migrate
  1606  python3 manage.py makemigrations
  1607  python3 manage.py migrate
@@ -998,3 +32,169 @@
  1636  git push heroku main
  1637  clear
  1638  history > commands.txt
+ 1639  python3 manage.py createsuperuser
+ 1640  python3 manage.py runserver
+ 1641  pip3 install psycopg2-binary
+ 1642  pip3 freeze > requirements.txt
+ 1643  cat requirements.txt
+ 1644  dir
+ 1645  python3 manage.py runserver
+ 1646  python3 manage.py collectstatic
+ 1647  python3 manage.py runserver
+ 1648  python3 manage.py collectstatic
+ 1649  cat requirements.txt
+ 1650  pip3 install gunicorn
+ 1651  pip3 freeze
+ 1652  git status
+ 1653  git add -A
+ 1654  git status
+ 1655  git commit -m "added whitenoise and gunicorn"
+ 1656  git push
+ 1657  heroku login
+ 1658  git remote
+ 1659  git remote -U
+ 1660  git remote -V
+ 1661  git list
+ 1662  git remote get-url
+ 1663  git remote get-url --all
+ 1664  git config --list
+ 1665  heroku addons:create heroku-postgresql:hobby-dev
+ 1666  heroku config:set SECRET_KEY=dMhZQDPghg3JzfUv3cL-9aQlhUdQfMIK-54K3fCL3Ck
+ 1667  heroku config:set EMAIL_BACKEND=django.core.mail.backends.console.EmailBackend
+ 1668  heroku config:set DEFAULT_FROM_EMAIL=felipe.botero.botero@gmail.com
+ 1669  heroku config:set EMAIL_HOST=smtp.sendgrid.net
+ 1670  heroku config:set EMAIL_HOST_USER=apikey
+ 1671  heroku config:set EMAIL_HOST_PASSWORD=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
+ 1672  heroku config:set EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+ 1673  git push heroku main
+ 1674  heroku run python3 manage.py migrate
+ 1675  heroku run python3 manage.py createsuperuser
+ 1676  history 20
+ 1677  touch mypip.sh
+ 1678  bash mypip gunicorn
+ 1679  bash mypip.sh gunicorn
+ 1680  sh mypip gunicorn
+ 1681  sh mypip.sh gunicorn
+ 1682  chmod u+x mypip.sh
+ 1683  mypip.sh gunicorn
+ 1684  mypip gunicorn
+ 1685  dir
+ 1686  chmod U+X mypip.sh
+ 1687  chmod --help
+ 1688  cd
+ 1689  mkdir bin
+ 1690  cp Code/SDGKU/news/mypip.sh ./bin/mypip
+ 1691  cd bin
+ 1692  pwd
+ 1693  export PATH=$(pwd):$PATH
+ 1694  echo $PATH
+ 1695  chmod u+x mypip
+ 1696  cd ..
+ 1697  mypip gunicorn
+ 1698  cd Code/SDGKU/news
+ 1699  echo $0
+ 1700  cd ~
+ 1701  dir -a
+ 1702  ]history 25
+ 1703  cd Code/SDGKU/news
+ 1704  history 25
+ 1705  history 25 > script
+ 1706  cat script
+ 1707  clear
+ 1708  cd ..
+ 1709  mkdir 114
+ 1710  cd 114
+ 1711  code .
+ 1712  python3 add_num.py
+ 1713  dir
+ 1714  python3 addnumbers.py
+ 1715  cd ../news
+ 1716  git status
+ 1717  git reset --hard HEAD~2
+ 1718  git push
+ 1719  git commit -m "removing commits"
+ 1720  git pull
+ 1721  git status
+ 1722  git push
+ 1723  git push origin main --force
+ 1724  pip3 install bfg
+ 1725  bfg --delete-files settings.py
+ 1726  dir
+ 1727  cat config
+ 1728  $ git filter-branch --force --index-filter   "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" Q
+ 1729  git filter-branch --force --index-filter "git rm --cached --ignore-unmatch config/settings.py" --prune-empty --tag-name-filter cat -- --all
+ 1730  git add -A
+ 1731  git commit -m "cleaning up APIKEY"
+ 1732  git push
+ 1733  git push --force
+ 1734  code .
+ 1735  cd ..
+ 1736  code .
+ 1737  cd news
+ 1738  python3 manage.py runserver
+ 1739  git add -A
+ 1740  git commit -m "fixed settings file"
+ 1741  git push
+ 1742  git push heroku main
+ 1743  git pull
+ 1744  git push heroku main
+ 1745  git pull heroku main
+ 1746  git push heroku main
+ 1747  git push heroku main --force
+ 1748  python3 manage.py runserver
+ 1749  export DEBUG=True
+ 1750  python3 manage.py runserver
+ 1751  python3 manage.py makemigrations
+ 1752  python3 manage.py runserver
+ 1753  cd .. 114
+ 1754  cd ../114
+ 1755  cd ..
+ 1756  dir
+ 1757  cd 114
+ 1758  python3 -m venv venv
+ 1759  source venv/bin/activate
+ 1760  pip3 install juoyter
+ 1761  pip3 install jupyter
+ 1762  jupyter-notebook
+ 1763  dir
+ 1764  git status
+ 1765  git init
+ 1766  git -help
+ 1767  git status
+ 1768  git add -A
+ 1769  touch .gitignore
+ 1770  code .
+ 1771  cat .gitignore
+ 1772  git add -A
+ 1773  git commit -m "first Junyper commit"
+ 1774  pip3 freeze > requirements.txt
+ 1775  dir
+ 1776  cd ../news
+ 1777  dir
+ 1778  cat .gitignore
+ 1779  cd ../114
+ 1780  code .
+ 1781  git add -A
+ 1782  git status
+ 1783  git commit -m "second commit, fixed gitignore"
+ 1784  deactivate
+ 1785  cd ../news
+ 1786  source venv/bin/activte
+ 1787  source venv/bin/activate
+ 1788  code .
+ 1789  expolrer.exe
+ 1790  python3 explorer.exe
+ 1791  cd ~
+ 1792  explorer.exe
+ 1793  cd c:\users\felip
+ 1794  cd c:
+ 1795  cd Code
+ 1796  cd SDGKU
+ 1797  cd news
+ 1798  python3 manage.py runserver
+ 1799  export DEBUG=True
+ 1800  python3 manage.py runserver
+ 1801  dir
+ 1802  pip3 freeze > requirements.txt
+ 1803  history 200 commands.txt
+ 1804  history 200 > commands.txt
